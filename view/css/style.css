@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+    
+}
+.box{
+width: 70%;
+margin: 0 auto;
+
+}
+.a{
+   
+    float: left;
+    width: 100%;
+}
+.b{
+    margin-bottom: 20px;
+}
+.c{
+    background-color: rgba(6, 51, 91, 0.562);
+    min-height: 100px ;
+}
+.hd{
+    background-color: aliceblue;
+    border: 1px red solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+
+}
+.mr{
+    margin-right: 2%;
+}
+.hd h1{
+   margin: 20px;
+   font-size: 1.2vw;
+}
+.menu{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+
+   
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+
+}
+.boxphai{
+    float: left;
+    width: 24%;
+    
+
+}
+.ft{
+    background-color: aliceblue;
+    border: 1px red solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+
+   padding: 20px;
+}
+.td{
+    
+    color: #333;
+    padding: 10px;
+    background-color: aliceblue;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+border: 1px #ccc solid ;
+}
+.conten{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    min-height: 200px;
+    padding: 20px;
+}
+.conten2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    min-height: 200px;
+    background-color: #eee;
+}
+.boxft{
+  
+    padding: 10px;
+    background-color: aliceblue;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+border-left: 1px #ccc solid ;
+border-right: 1px #ccc solid ;
+border-bottom: 1px #ccc solid ;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+   width: 100%;
+    
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+   
+    margin-top: 10px;
+   
+}
+.boxsp img{
+    width: 100%;
+}
+.boxsp p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.boxsp a{
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.menu ul{
+    padding: 0;
+   
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+}
+.menu ul li a{
+  transition: 0.5s;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.menu a:hover{
+    color: red;
+   
+}
+.formtk{
+    line-height: 150%;
+}
+.mb{
+    padding-top: 10px
+}
+.formtk input[type="text"],[type="password"],
+
+.formconten input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding:  10px;
+    border-radius: 5px;
+}
+.formtk input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtk input[type="submit"],.formconten input[type="submit"],.formconten input[type="reset"],.formconten input[type="button"]{
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: white;
+    border: 1px #cccccc47 solid;
+}
+.formtk input[type="submit"]:hover,.formconten input[type="submit"]:hover,.formconten input[type="reset"]:hover,.formconten input[type="button"]:hover{
+    background-color: #ccc;
+}
+.mb li a{
+    color: rgb(109, 109, 233);
+    text-decoration: none;
+   
+}
+.mb li a:hover{
+   color: blue;
+    text-decoration: underline;
+    font-size: 0.9vw;
+}
+.menu2 ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+.menu2 ul li{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px  #ccc solid;
+    
+}
+.menu2 ul li a{
+    color: #666;
+   
+   text-decoration: none; 
+
+}
+.menu2 ul li:hover{
+    background-color: #ccc;
+}
+.shopbx input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+
+}
+/* adnmin */
+.hdadmin{
+    background-color: aliceblue;
+    border: 1px red solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+.hdadmin h1{
+    font-size: 2vw;
+}
+.tm{
+    background-color: aliceblue;
+    border: 1px red solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+.formconten{
+    padding-top: 20px ;
+}
+.mb2{
+    margin-bottom: 10px;
+}
+.formds table{
+    width: 100%;
+    border-collapse: collapse ;
+  
+}
+.formds table th{
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.formds table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.formds table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+   
+}
+.formds table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+    
+}
+.formds table td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+   
+}
+
+
+/* lide show */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* hêt */
+
+/* .binhluan table{
+width: 90%;
+margin-left: 5%;
+}
+.binhluan table td:nth-child(1) {
+width: 50%;
+}
+.binhluan table td:nth-child(2) {
+width: 20%;
+}
+.binhluan table td:nth-child(3) {
+width: 30%;
+} */
